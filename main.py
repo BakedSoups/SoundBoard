@@ -11,7 +11,7 @@ class SoundboardApp:
 
         self.selected_folder = None  # Initialize selected_folder attribute
 
-        self.queue = []
+        self.queue = [0]
 
         # Pygame mixer initialization
         pygame.mixer.init()

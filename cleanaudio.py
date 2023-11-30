@@ -4,7 +4,7 @@ import glob
 
 currentdir = os.getcwd()
 
-for i in range(1, 4):
+for i in range(1, 5):
     currentfiles = glob.glob(f"{currentdir}/AllScenes/Scene{i}/*.wav")
     currentfolder = os.listdir(f"{currentdir}/AllScenes/Scene{i}")
 
